@@ -1,4 +1,5 @@
 
+
 # deliverables below 
 
 [ERD of initial tables created](https://github.com/misterrustia/Pewlett-Hackard-Analysis/blob/master/EmployeeDB.png) 
@@ -31,6 +32,7 @@ query.
 
 
 #paragraph 2
+
 Once this table was created it was clear that there were tables that had
 multiple copies of employees due to them having multiple positions over
 their time with the company. The next deliverable to be created was to
@@ -56,6 +58,7 @@ our [deliverable two, retirees filtered with partition by for current title](htt
 
 
 #paragraph 3
+
 After completion of the challenge tables some analysis could be made.
 There are 240124 current employees working at the company,33118 employees
 could be ready to retire soon which would leave over a 7 percent gap in the
@@ -70,6 +73,7 @@ company than others?
 Which departments have the most managers who are ready to retire in them as
 employees who are in line for promotion have to be identified and probably
 given the task of helping source new talent for their said department. 
+
 
 
 
