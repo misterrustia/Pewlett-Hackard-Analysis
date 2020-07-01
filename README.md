@@ -1,23 +1,36 @@
 
 # deliverables below 
+
 [ERD of initial tables created](https://github.com/misterrustia/Pewlett-Hackard-Analysis/blob/master/EmployeeDB.png) 
+
+
 [ the first deliverable table, retiring employees by title](https://github.com/misterrustia/Pewlett-Hackard-Analysis/blob/master/Data/Deliverable1.1_emp_ret_title.csv)
 
 [deliverable two, retirees filtered with partition by for current title](https://github.com/misterrustia/Pewlett-Hackard-Analysis/blob/master/Data/Deliverable_1_2_partition.csv) 
+
+# Analysis 
+
+#paragraph 1 
+
 The initial problem that was being solved by  SQL was to find out how many
  people were heading towards retirement per title inside of the company. 
 The other problem being solved was figuring out  how many employees were
  eligible for a mentorship program that was being developed by the company. 
 
+
 To solve the first problem of figuring out how many people were going to
 retire per title we needed to take our current employee table that was
 already distilled down using the BETWEEN and AND filters and then do a
 INNER JOIN with two other tables, the titles table and the salaries
-table  to create the first deliverable.
+table  to create 
+[ the first deliverable table, retiring employees by title](https://github.com/misterrustia/Pewlett-Hackard-Analysis/blob/master/Data/Deliverable1.1_emp_ret_title.csv)
 The first deliverable table  would have information about each employee's
 positions and salaries they were receiving. INNER JOIN was used to take
 only the columns that met the criteria in the initial SELECT segment of the
 query. 
+
+
+#paragraph 2
 Once this table was created it was clear that there were tables that had
 multiple copies of employees due to them having multiple positions over
 their time with the company. The next deliverable to be created was to
@@ -39,7 +52,10 @@ This allows us to take (rn=1) the top of the descending list of from_dates
 as the criteria for our subquery. This combination of functions removes all
 the rows of multiple employee numbers and returns only the ones with the
 most recent from date giving us just the employees last title and salary in
-our deliverable table. 
+our [deliverable two, retirees filtered with partition by for current title](https://github.com/misterrustia/Pewlett-Hackard-Analysis/blob/master/Data/Deliverable_1_2_partition.csv)  
+
+
+#paragraph 3
 After completion of the challenge tables some analysis could be made.
 There are 240124 current employees working at the company,33118 employees
 could be ready to retire soon which would leave over a 7 percent gap in the
